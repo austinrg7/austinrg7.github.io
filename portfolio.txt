@@ -1,0 +1,40 @@
+/*****/
+/TO DO/
+/*****/
+1. Link resume, github, and linkedin to appropriate things
+2. Change it so links do not open in new page
+3. Fix up portfolio works to run in linux and only include the necessary files 
+4. Improve Math/CS enrollment viz
+5. Change UX for portfolio page?
+
+
+10 Best Works
+--------------
+
+C++
+~~~~
+1. 20 Qs
+2. RB-Tree Dictionary
+3. LaTeX simulator
+
+
+Python
+~~~~~~
+
+4. Ez pass simulation
+5. Motif finder
+
+SPIM
+~~~~
+6. Last Spim Assignment
+
+HTML/CSS/Javascript
+~~~~~~~~~~~~~~~~~~~
+7. SVG visualization (Improve Math/CS enrollment viz)
+8. Study abroad website
+
+
+Full Projects
+~~~~~~~~~~~~~
+9. DNA Research 
+10. Lexos

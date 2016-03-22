@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="foundation.css">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+	<body>
+		<div >
+			<span class="page_title"><center>Projects</center></span>
+		</div>
+		<div class="small-9 small-centered columns">
+			<ul class="tabs text-center" data-tabs>
+				<li class="tabs-title  is-active"><a href="#Lexos" aria-selected="true">Lexos</a></li>
+				<li class="tabs-title"><a href="#Abroad" aria-selected="false">Wheaton Abroad Redesign</a></li>
+				<li class="tabs-title"><a href="#Research" aria-selected="false">Genomics Research</a></li>
+			</ul>
+			<div class="tabs-content" data-tabs-content="projectTabs">
+				<div class="tabs-panel is-active" id="Lexos">
+					<center><img src="images/voronoi.png"></img></center>
+					<br>
+					<p>During the summer of 2015 I worked with a team of students and professors to further the development of <a href="http://lexos.wheatoncollege.edu">the Wheaton College Lexos web app</a>.  While I contributed to a variety of Lexos's functions, my primary focus was on furthering the development of the "K-means" page as part of Lexos's clustering analysis functions.  The data visulization shown above is a Vornoi tessalation produced using D3.  Additional features of the Lexos K-means page can be found <a href="http://lexos.wheatoncollege.edu/kmeans">here.</a>  All of the code is available on <a href="https://github.com/WheatonCS/Lexos">github</a>.</p>
+				</div>
+				<div class="tabs-panel" id="Abroad">
+					<center><img src="images/abroad.png"></img></center>
+					<br>
+					<p>In the fall of 2014, my web app class was given a group assignment to redesign one of wheaton college's webpages.  My group chose the <a href="http://wheatoncollege.edu/global/study/study-programs/semester-fullyear/">study abroad</a> page.  While others worked on giving the page a new look, I added a simple visualization of the study abroad locations.  Using leaflet.js and geoJSON, I added location markers to a map of the globle color coded by region with the option to click on them to get a pop-up with the name of the program at that location.  While no longer hosted on the web, the code for this project can be found on <a href="https://github.com/">github</a>.    
+					</p>
+				</div>
+				<div class="tabs-panel " id="Research">
+					<center><iframe src='https://onedrive.live.com/embed?cid=36ABA478D04AC6B0&resid=36ABA478D04AC6B0%212849&authkey=AOvKFapny_LLZqs&em=2&wdAr=1.3333333333333332' width='610px' height='481px' frameborder='0'>This is an embedded <a target='_blank' href='http://office.com'>Microsoft Office</a> presentation, powered by <a target='_blank' href='http://office.com/webapps'>Office Online</a>.</iframe></center>
+					<br>
+					<p>This presentation was given in the fall of 2013 for a DNA bioinformatics class.  Using python, the genomes of six bacteria and one randomized genome were analyzed looking for certain motifs to determine the similarity of the bacteria.  Five infectious bacteria were chosen and one everyday, harmless bacterium was chosen as the subjects to compare.  Initially I expected greater similarity between the infectious bacteria, but the results showed otherwise.  The dendrogram's produced using python showed similarities depended greatly on genus and little similarity based on ability to infect and cause disease.</p>  
+				</div>
+			</div>
+		</div>
+		<script src="http://code.jquery.com/jquery-2.2.1.min.js"></script> 
+    	<script src="foundation.min.js"></script>
+    	<script>
+      		$(document).foundation();
+    	</script>
+	</body>
+</html>
