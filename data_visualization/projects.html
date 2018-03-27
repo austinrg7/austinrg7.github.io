@@ -11,6 +11,12 @@
 				font-family: 'Arial';
 				font-size: 1.2em;
 			}
+
+			@supports (-webkit-appearance:none) {
+    			#bkg{
+        			margin-top: 5%;
+    			}
+			}
 		</style>
 
 	</head>
@@ -31,7 +37,7 @@
 		</div>
 
 		<br style="display: block;margin-bottom:5%;">
-		<img src="./images/vis_bkrnd.jpg" width="80%" height="90%" style="position:absolute;left:8%;opacity: 0.4;">
+		<img id="bkg" src="./images/vis_bkrnd.jpg" width="80%" height="90%" style="position:absolute;left:8%;opacity: 0.4;">
 		<div style="position:absolute;">
 		<div style="position:relative;text-align:justify;width:78%;margin-left:8%;">
 			<p>All visualizations use real, although static, data for the sake of making the demonstrations simpler due to the loss of access to/infeasibility of the original dynamic sources. The source code for each visualization demo can be found in <a href="https://github.com/austinrg7/portfolio/tree/master/data_visualization">this repo</a>.</p> 
