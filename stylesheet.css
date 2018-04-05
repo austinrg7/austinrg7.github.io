@@ -2,10 +2,6 @@
 @import url("http://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
 
-body{
-	background-image: url("images/background.png");
-}
-
 p{
 	text-align: justify;
     text-justify: inter-word;
@@ -122,5 +118,3 @@ span {
 .project_title{
 		font-size:36px;
 }
-
-
