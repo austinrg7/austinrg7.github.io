@@ -90,7 +90,7 @@ function makeTessalation(){
     }
 
     else{
-        console.log("WTF?!?!?!")
+        console.log("Unforseen error!");
     }
 
     //Find the points that are also centroids
